@@ -1,0 +1,6 @@
+framework module Pods_MLKiT {
+  umbrella header "Pods-MLKiT-umbrella.h"
+
+  export *
+  module * { export * }
+}

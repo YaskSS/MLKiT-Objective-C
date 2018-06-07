@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6527A7E93635D1ADB443D85F /* Pods_MLKiT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C901530FCF86D7568039F445 /* Pods_MLKiT.framework */; };
 		9D61289E20BEEBCD0020F6EC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D61289D20BEEBCD0020F6EC /* AppDelegate.m */; };
 		9D6128A120BEEBCD0020F6EC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D6128A020BEEBCD0020F6EC /* ViewController.m */; };
 		9D6128A420BEEBCD0020F6EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D6128A220BEEBCD0020F6EC /* Main.storyboard */; };
 		9D6128A620BEEBCF0020F6EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D6128A520BEEBCF0020F6EC /* Assets.xcassets */; };
 		9D6128A920BEEBCF0020F6EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D6128A720BEEBCF0020F6EC /* LaunchScreen.storyboard */; };
 		9D6128AC20BEEBCF0020F6EC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D6128AB20BEEBCF0020F6EC /* main.m */; };
+		9D6128B320BEFA260020F6EC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9D6128B220BEFA260020F6EC /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		315EAFAC04C8F0F168C0898B /* Pods-MLKiT.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MLKiT.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MLKiT/Pods-MLKiT.debug.xcconfig"; sourceTree = "<group>"; };
 		9D61289920BEEBCD0020F6EC /* MLKiT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MLKiT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D61289C20BEEBCD0020F6EC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9D61289D20BEEBCD0020F6EC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +29,9 @@
 		9D6128A820BEEBCF0020F6EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9D6128AA20BEEBCF0020F6EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9D6128AB20BEEBCF0020F6EC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9D6128B220BEFA260020F6EC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C901530FCF86D7568039F445 /* Pods_MLKiT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MLKiT.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E491070EE2B3AB44A39DC0DA /* Pods-MLKiT.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MLKiT.release.xcconfig"; path = "Pods/Target Support Files/Pods-MLKiT/Pods-MLKiT.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6527A7E93635D1ADB443D85F /* Pods_MLKiT.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +51,8 @@
 			children = (
 				9D61289B20BEEBCD0020F6EC /* MLKiT */,
 				9D61289A20BEEBCD0020F6EC /* Products */,
+				B7904F1598B0DEF159CBD26A /* Pods */,
+				BBAD0AC471453295AADA57B2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,8 +76,26 @@
 				9D6128A720BEEBCF0020F6EC /* LaunchScreen.storyboard */,
 				9D6128AA20BEEBCF0020F6EC /* Info.plist */,
 				9D6128AB20BEEBCF0020F6EC /* main.m */,
+				9D6128B220BEFA260020F6EC /* GoogleService-Info.plist */,
 			);
 			path = MLKiT;
+			sourceTree = "<group>";
+		};
+		B7904F1598B0DEF159CBD26A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				315EAFAC04C8F0F168C0898B /* Pods-MLKiT.debug.xcconfig */,
+				E491070EE2B3AB44A39DC0DA /* Pods-MLKiT.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BBAD0AC471453295AADA57B2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C901530FCF86D7568039F445 /* Pods_MLKiT.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -78,9 +105,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9D6128AF20BEEBCF0020F6EC /* Build configuration list for PBXNativeTarget "MLKiT" */;
 			buildPhases = (
+				EBB873ED20EF146B0320E4B6 /* [CP] Check Pods Manifest.lock */,
 				9D61289520BEEBCD0020F6EC /* Sources */,
 				9D61289620BEEBCD0020F6EC /* Frameworks */,
 				9D61289720BEEBCD0020F6EC /* Resources */,
+				71448E074A667A1CA864EA34 /* [CP] Embed Pods Frameworks */,
+				2AB6A07B50FE06DB6A384CCA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -129,12 +159,78 @@
 			buildActionMask = 2147483647;
 			files = (
 				9D6128A920BEEBCF0020F6EC /* LaunchScreen.storyboard in Resources */,
+				9D6128B320BEFA260020F6EC /* GoogleService-Info.plist in Resources */,
 				9D6128A620BEEBCF0020F6EC /* Assets.xcassets in Resources */,
 				9D6128A420BEEBCD0020F6EC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2AB6A07B50FE06DB6A384CCA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MLKiT/Pods-MLKiT-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/GoogleMobileVision/GoogleMVTextDetectorResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMVTextDetectorResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MLKiT/Pods-MLKiT-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		71448E074A667A1CA864EA34 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MLKiT/Pods-MLKiT-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleAPIClientForREST/GoogleAPIClientForREST.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleAPIClientForREST.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MLKiT/Pods-MLKiT-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EBB873ED20EF146B0320E4B6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MLKiT-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9D61289520BEEBCD0020F6EC /* Sources */ = {
@@ -281,6 +377,7 @@
 		};
 		9D6128B020BEEBCF0020F6EC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 315EAFAC04C8F0F168C0898B /* Pods-MLKiT.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +395,7 @@
 		};
 		9D6128B120BEEBCF0020F6EC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E491070EE2B3AB44A39DC0DA /* Pods-MLKiT.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
